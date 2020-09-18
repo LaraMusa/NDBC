@@ -1,6 +1,4 @@
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <font face = "Georgia, serif">
 <header>
     <link rel="stylesheet" type="text/css" href="css.css" />
@@ -24,30 +22,32 @@
 
     <div class="clear"></div>
 	
-    <style>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
         
 * {
   box-sizing: border-box;
 }
-
 .sidenav {
   float: left;
   width: 25%;
 }
-
+.sidenav a {
+  padding: 6px 8px 20px 16px;
+}
 .main {
-  float: left;
+  float: right;
   width: 100%;
   position: relative;
 }
-
 @media only screen and (max-width:800px) {
   /* For tablets: */
   .main {
+  float: left;
   width: 100%;
-  margin-left: 10%;
-}
- #calendar {
+  position: relative;
+  }
+#calendar {
   width:100%;
  }
  #ex {
@@ -62,33 +62,25 @@
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
   .main {
+  float: left;
   width: 100%;
-    margin-left: 10%;
-
+  position: relative;
   }
 }
-#calendar {
+	#calendar {
   width:100%;
-}
-#ex {
+ }
+ #ex {
   width: 100%;
-}
-#summary {
+ }
+ #summary {
   width: 100%
  }
  #boxes {
   width: 100%;
  }
-
-@viewport{
-	zoom: 1.0;
-	width: extend-to-zoom;
-}
-@-ms-viewport{
-	width: extend-to-zoom;
-	zoom: 1.0;
-}
     </style>
+
 
 
 </header>
