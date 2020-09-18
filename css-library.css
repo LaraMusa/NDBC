@@ -814,13 +814,17 @@ header {
   .sidenav a {font-size: 18px;}
 }
 
+#boxes {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 #preview {
   height: 8%;
   width: 20%;
   float: left;
   margin-top:47px;
-  padding right: 20px;
 }
 
 #summary {
@@ -830,7 +834,7 @@ header {
   width:50%;
   float: right;
   margin-top:20px;
-  padding left: 35px;
+  padding left: 25px;
 }
 
 
