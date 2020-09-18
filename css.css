@@ -6,7 +6,7 @@ body { margin:0px; padding:0px;}
 
 /* main */
 header {
-    height: 360px;
+    minheight: 360px;
     z-index: 10;
 }
 
@@ -29,7 +29,7 @@ header {
 }
 
 .sidenav a {
-  padding: 6px 8px 20px 16px;
+  /*padding: 6px 8px 20px 16px;*/
   text-decoration: none;
   font-size: 20px;
   color: #fff;
@@ -198,7 +198,7 @@ button {
 }
 
 .header-banner {
-    position:absolute;
+    position:relative;
     top:0;
     right:0;
     margin-right:0;
