@@ -209,6 +209,7 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+    width: 75%;
 }
 
 header h1 {
