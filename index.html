@@ -22,7 +22,42 @@
     </div>
 
     <div class="clear"></div>
+<style>
+        
+* {
+  box-sizing: border-box;
+}
 
+.sidenav {
+  float: left;
+  width: 25%;
+}
+.sidenav a {
+  padding: 6px 8px 20px 16px;
+}
+.main {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+  float: left;
+  width: 100%;
+  position: relative;
+  }
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .sidenav, .main {
+  float: left;
+  width: 100%;
+  position: relative;
+  }
+}
+    </style>
 </header>
 
 <body class="main">
