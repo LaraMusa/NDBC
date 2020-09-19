@@ -10,6 +10,12 @@ html, body{
   margin-right:15%;
   text-align:center;
 }
+#welcome{
+  margin-top:40px;
+  margin-left:40%;
+  margin-right:15%;
+  text-align:center;
+}
 /* main */
 header {
     height: 360px;
