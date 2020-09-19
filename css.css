@@ -5,6 +5,11 @@ html, body{
   overflow-x: hidden;
   max-width:100%;
 }
+#intro{
+ margin-left:40%;
+  margin-right:5%;
+  text-align:center;
+}
 /* main */
 header {
     height: 360px;
