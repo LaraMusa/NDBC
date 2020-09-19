@@ -8,3 +8,9 @@ $(window).scroll(function(){
         $('nav div').removeClass('visible-title');
     }
 });
+var scrollEventHandler = function()
+{
+  window.scroll(0, window.pageYOffset)
+}
+
+window.addEventListener("scroll", scrollEventHandler, false);
