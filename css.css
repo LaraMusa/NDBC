@@ -15,6 +15,11 @@ html, body{
   margin-right:15%;
   text-align:center;
 }
+#button{
+ margin-left:0%;
+  margin-right:15%;
+  text-align:center; 
+}
 /* main */
 header {
     height: 360px;
@@ -128,9 +133,6 @@ button {
   line-height: 42px;
   padding: 0;
   border: none;
-  margin-left:0%;
-  margin-right:15%;
-  text-align:center;
 }
 .btn1 span {
   position: relative;
