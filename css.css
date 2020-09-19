@@ -1,20 +1,14 @@
 ::-moz-selection { background: rgb(240,240,240); }
 ::selection { background: rgb(240,240,240); }
-
 body { margin:0px; padding:0px;}
-
-
 /* main */
 header {
     height: 360px;
     z-index: 10;
 }
-
-
 .hpl:hover{
   background-color: rgb(200,214,227);
 }
-
 .sidenav {
   height: 100%;
   width: 25%;
@@ -27,7 +21,6 @@ header {
   padding-top: 20px;
   text-align:center;
 }
-
 .sidenav a {
   padding: 6px 8px 20px 16px;
   text-decoration: none;
@@ -35,30 +28,24 @@ header {
   color: #fff;
   display: block;
 }
-
 .sidenav a:hover {
   color: rgb(109,118,139);
 }
-
 .main {
   /*margin-left: 35%;
   margin-right: 10%;
   padding: 0px 10px;
   text-align:center;*/
 }
-
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-
 #boxes {
   content: "";
   display: table;
   clear: both;
 }
-
-
 #preview {
  height: 8%;
   width: 20%;
@@ -70,7 +57,6 @@ header {
   float: left;
   margin-top:52px;*/
 }
-
 #summary {
   background-color: #fff;
   height: 10%;
@@ -85,15 +71,11 @@ header {
   float: right;
   margin-top:35px;*/
 }
-
-
 #boxes2 {
   content: "";
   clear: both;
   display: table;
 }
-
-
 #ex {
   /*height: 8%;
   width: 45%;
@@ -104,7 +86,6 @@ header {
   float: left;
   margin-top:52px;
 }
-
 #calendar {
   /*height: 10%;
   margin-left:10px;
@@ -117,11 +98,9 @@ header {
   float: right;
   margin-top:35px;
 }
-
 button {
   margin: 17px;
 }
-
 .btn1 {
   color: #fff;
   border-radius: 5px;
@@ -211,7 +190,6 @@ button {
     height: 500px;
     width: 75%;
 }
-
 header h1 {
     background-color: rgba(18,72,120, 0.8);
     color: #fff;
@@ -220,14 +198,12 @@ header h1 {
     top: 2rem; 
     left: 2rem;
 }
-
 .fixed-header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
 }
-
 nav {
     width: 100%;
     height: 60px;
@@ -235,7 +211,6 @@ nav {
     postion: fixed;
     z-index: 10;
 }
-
 nav div {
     color: white;
     font-size: 2rem;
@@ -248,7 +223,6 @@ nav div {
 .visible-title {
     visibility: visible;
 }
-
 nav ul { 
     list-style-type: none;
     margin: 0 2% auto 0;
@@ -265,7 +239,6 @@ nav ul li a {
     text-decoration: none; 
     color: #fff;
 }
-
 /* demo content */
 body { 
     color: #292f36;
@@ -278,7 +251,6 @@ body {
     width: 960px;
     max-width: 100%;
 }
-
 @media only screen and (max-width: 960px) {
     .content{ 
         padding: 2rem 0;
