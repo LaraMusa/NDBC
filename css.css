@@ -121,9 +121,11 @@ header {
 }
 #link{
   text-align:center;
+   margin-left: 25%;
 }
 #contact{
  text-align:center;
+ margin-left: 25%;
 }
 .btn1 {
   color: #fff;
