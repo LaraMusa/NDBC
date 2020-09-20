@@ -5,6 +5,12 @@ html, body{
   overflow-x: hidden;
   max-width:100%;
 }
+.try{
+ width:100%;
+  margin-left:30%;
+  margin-right:5%;
+  height:30%;
+}
 #intro{
  margin-left:40%;
   margin-right:15%;
