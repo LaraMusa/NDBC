@@ -5,12 +5,9 @@ html, body{
   overflow-x: hidden;
   max-width:100%;
 }
-.try{
-  width:75%;
-  margin-top:10%;
-  margin-left:25%;
-  margin-bottom:10%;
-  height:60%;
+.champ{
+  "margin-left: 25%; 
+  width: 75%; 
   background-color: rgb(240,240,240);
 }
 #intro{
