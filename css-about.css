@@ -117,6 +117,13 @@ header {
   float: left;
   margin-top:67px;
 }
+#contact {
+margin-left:25%;
+ margin-right:0;
+ margin-top: 100px;
+ text-align:center;
+ background-color: rgb(240,240,240);
+}
 .header-banner {
     position: relative;
     top:0;
