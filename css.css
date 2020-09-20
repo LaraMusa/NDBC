@@ -119,6 +119,9 @@ header {
   button {
   margin: 17px;
 }
+#link{
+  text-align:center;
+}
 .btn1 {
   color: #fff;
   border-radius: 5px;
