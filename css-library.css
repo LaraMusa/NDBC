@@ -1019,7 +1019,8 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    /*width: 75%;*/
+    float:left;
+    width: 100%;
 }
 
 header h1 {
