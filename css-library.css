@@ -1010,17 +1010,16 @@ header {
 }
 .header-banner {
   position: relative;
-    top:0;
-    right:0;
+    margin-top:0;
     margin-right:0;
     border:0;
-    left:25%;
+    margin-left:25%;
     background-image: url('laramusa.github.io/Images/library.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    width: 75%;
+    /*width: 75%;*/
 }
 
 header h1 {
