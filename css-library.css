@@ -2,23 +2,15 @@
 ::selection { background: rgb(240,240,240); }
 
 body { margin:0px; padding:0px;}
-html, body{
-  overflow-x: hidden;
-  max-width:100%;
-}
+
 /* main */
 header {
     height: 360px;
     z-index: 10;
 }
-
 .hpl:hover{
   background-color:rgb(200,214,227);
 }
-
-
-
-
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -32,7 +24,6 @@ header {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
 /* Modal Content */
 .modal-content {
   background-color: #fefefe;
@@ -41,7 +32,6 @@ header {
   border: 1px solid #888;
   width: 80%;
 }
-
 /* The Close Button */
 .close {
   color: #aaaaaa;
@@ -49,14 +39,12 @@ header {
   font-size: 28px;
   font-weight: bold;
 }
-
 .close:hover,
 .close:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-
 .modal2 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -70,7 +58,6 @@ header {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
 /* Modal Content */
 .modal-content2 {
   background-color: #fefefe;
@@ -79,7 +66,6 @@ header {
   border: 1px solid #888;
   width: 80%;
 }
-
 /* The Close Button */
 .close2 {
   color: #aaaaaa;
@@ -87,14 +73,12 @@ header {
   font-size: 28px;
   font-weight: bold;
 }
-
 .close2:hover,
 .close2:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-
 .modal3 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -108,7 +92,6 @@ header {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
 /* Modal Content */
 .modal-content3 {
   background-color: #fefefe;
@@ -117,7 +100,6 @@ header {
   border: 1px solid #888;
   width: 80%;
 }
-
 /* The Close Button */
 .close3 {
   color: #aaaaaa;
@@ -125,14 +107,12 @@ header {
   font-size: 28px;
   font-weight: bold;
 }
-
 .close3:hover,
 .close3:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-
 .modal4 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -146,7 +126,6 @@ header {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
 /* Modal Content */
 .modal-content4 {
   background-color: #fefefe;
@@ -155,7 +134,6 @@ header {
   border: 1px solid #888;
   width: 80%;
 }
-
 /* The Close Button */
 .close4 {
   color: #aaaaaa;
@@ -163,14 +141,12 @@ header {
   font-size: 28px;
   font-weight: bold;
 }
-
 .close4:hover,
 .close4:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-
 .modal5 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -184,7 +160,6 @@ header {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
 /* Modal Content */
 .modal-content5 {
   background-color: #fefefe;
@@ -193,7 +168,6 @@ header {
   border: 1px solid #888;
   width: 80%;
 }
-
 /* The Close Button */
 .close5 {
   color: #aaaaaa;
@@ -201,14 +175,12 @@ header {
   font-size: 28px;
   font-weight: bold;
 }
-
 .close5:hover,
 .close5:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-
 .modal6 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -222,7 +194,6 @@ header {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
 /* Modal Content */
 .modal-content6 {
   background-color: #fefefe;
@@ -231,7 +202,6 @@ header {
   border: 1px solid #888;
   width: 80%;
 }
-
 /* The Close Button */
 .close6 {
   color: #aaaaaa;
@@ -239,14 +209,12 @@ header {
   font-size: 28px;
   font-weight: bold;
 }
-
 .close6:hover,
 .close6:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-
 .modal7 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -260,7 +228,6 @@ header {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
 /* Modal Content */
 .modal-content7 {
   background-color: #fefefe;
@@ -269,7 +236,6 @@ header {
   border: 1px solid #888;
   width: 80%;
 }
-
 /* The Close Button */
 .close7 {
   color: #aaaaaa;
@@ -277,14 +243,12 @@ header {
   font-size: 28px;
   font-weight: bold;
 }
-
 .close7:hover,
 .close7:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-
 .modal8 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -298,7 +262,6 @@ header {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
 /* Modal Content */
 .modal-content8 {
   background-color: #fefefe;
@@ -307,7 +270,6 @@ header {
   border: 1px solid #888;
   width: 80%;
 }
-
 /* The Close Button */
 .close8 {
   color: #aaaaaa;
@@ -315,14 +277,12 @@ header {
   font-size: 28px;
   font-weight: bold;
 }
-
 .close8:hover,
 .close8:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-
 .modal9 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -336,7 +296,6 @@ header {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
 /* Modal Content */
 .modal-content9 {
   background-color: #fefefe;
@@ -345,7 +304,6 @@ header {
   border: 1px solid #888;
   width: 80%;
 }
-
 /* The Close Button */
 .close9 {
   color: #aaaaaa;
@@ -353,14 +311,12 @@ header {
   font-size: 28px;
   font-weight: bold;
 }
-
 .close9:hover,
 .close9:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-
 .modal10 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -374,7 +330,6 @@ header {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
 /* Modal Content */
 .modal-content10 {
   background-color: #fefefe;
@@ -383,7 +338,6 @@ header {
   border: 1px solid #888;
   width: 80%;
 }
-
 /* The Close Button */
 .close10 {
   color: #aaaaaa;
@@ -391,14 +345,12 @@ header {
   font-size: 28px;
   font-weight: bold;
 }
-
 .close10:hover,
 .close10:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-
 .modal11 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -412,7 +364,6 @@ header {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
 /* Modal Content */
 .modal-content11 {
   background-color: #fefefe;
@@ -421,7 +372,6 @@ header {
   border: 1px solid #888;
   width: 80%;
 }
-
 /* The Close Button */
 .close11 {
   color: #aaaaaa;
@@ -429,14 +379,12 @@ header {
   font-size: 28px;
   font-weight: bold;
 }
-
 .close11:hover,
 .close11:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-
 .modal12 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -450,7 +398,6 @@ header {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
 /* Modal Content */
 .modal-content12 {
   background-color: #fefefe;
@@ -459,7 +406,6 @@ header {
   border: 1px solid #888;
   width: 80%;
 }
-
 /* The Close Button */
 .close12 {
   color: #aaaaaa;
@@ -467,14 +413,12 @@ header {
   font-size: 28px;
   font-weight: bold;
 }
-
 .close12:hover,
 .close12:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-
 .modal13 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -488,7 +432,6 @@ header {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
 /* Modal Content */
 .modal-content13 {
   background-color: #fefefe;
@@ -497,7 +440,6 @@ header {
   border: 1px solid #888;
   width: 80%;
 }
-
 /* The Close Button */
 .close13 {
   color: #aaaaaa;
@@ -505,14 +447,12 @@ header {
   font-size: 28px;
   font-weight: bold;
 }
-
 .close13:hover,
 .close13:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-
 .modal14 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -526,7 +466,6 @@ header {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
 /* Modal Content */
 .modal-content14 {
   background-color: #fefefe;
@@ -535,7 +474,6 @@ header {
   border: 1px solid #888;
   width: 80%;
 }
-
 /* The Close Button */
 .close14 {
   color: #aaaaaa;
@@ -543,14 +481,12 @@ header {
   font-size: 28px;
   font-weight: bold;
 }
-
 .close14:hover,
 .close14:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-
 .modal15 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -564,7 +500,6 @@ header {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
 /* Modal Content */
 .modal-content15 {
   background-color: #fefefe;
@@ -573,7 +508,6 @@ header {
   border: 1px solid #888;
   width: 80%;
 }
-
 /* The Close Button */
 .close15 {
   color: #aaaaaa;
@@ -581,14 +515,12 @@ header {
   font-size: 28px;
   font-weight: bold;
 }
-
 .close15:hover,
 .close15:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-
 .modal16 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -602,7 +534,6 @@ header {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
 /* Modal Content */
 .modal-content16 {
   background-color: #fefefe;
@@ -611,7 +542,6 @@ header {
   border: 1px solid #888;
   width: 80%;
 }
-
 /* The Close Button */
 .close16 {
   color: #aaaaaa;
@@ -619,14 +549,12 @@ header {
   font-size: 28px;
   font-weight: bold;
 }
-
 .close16:hover,
 .close16:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-
 .modal17 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -640,7 +568,6 @@ header {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
 /* Modal Content */
 .modal-content17 {
   background-color: #fefefe;
@@ -649,7 +576,6 @@ header {
   border: 1px solid #888;
   width: 80%;
 }
-
 /* The Close Button */
 .close17 {
   color: #aaaaaa;
@@ -657,14 +583,12 @@ header {
   font-size: 28px;
   font-weight: bold;
 }
-
 .close17:hover,
 .close17:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-
 .modal18 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -678,7 +602,6 @@ header {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
 /* Modal Content */
 .modal-content18 {
   background-color: #fefefe;
@@ -687,7 +610,6 @@ header {
   border: 1px solid #888;
   width: 80%;
 }
-
 /* The Close Button */
 .close18 {
   color: #aaaaaa;
@@ -695,14 +617,12 @@ header {
   font-size: 28px;
   font-weight: bold;
 }
-
 .close18:hover,
 .close18:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-
 .modal19 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -716,7 +636,6 @@ header {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
 /* Modal Content */
 .modal-content19 {
   background-color: #fefefe;
@@ -725,7 +644,6 @@ header {
   border: 1px solid #888;
   width: 80%;
 }
-
 /* The Close Button */
 .close19 {
   color: #aaaaaa;
@@ -733,14 +651,12 @@ header {
   font-size: 28px;
   font-weight: bold;
 }
-
 .close19:hover,
 .close19:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-
 .modal20 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -754,7 +670,6 @@ header {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
 /* Modal Content */
 .modal-content20 {
   background-color: #fefefe;
@@ -763,7 +678,6 @@ header {
   border: 1px solid #888;
   width: 80%;
 }
-
 /* The Close Button */
 .close20 {
   color: #aaaaaa;
@@ -771,14 +685,12 @@ header {
   font-size: 28px;
   font-weight: bold;
 }
-
 .close20:hover,
 .close20:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-
 .sidenav {
   height: 100%;
   width: 25%;
@@ -791,7 +703,6 @@ header {
   padding-top: 20px;
   text-align:center;
 }
-
 .sidenav a {
   padding: 6px 8px 20px 16px;
   text-decoration: none;
@@ -799,36 +710,30 @@ header {
   color: #fff;
   display: block;
 }
-
 .sidenav a:hover {
   color: rgb(109,118,139);
 }
-
 .main {
   /*margin-left: 35%;
   margin-right: 10%;
   padding: 0px 10px;
   text-align:center;*/
 }
-
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-
 #boxes {
   content: "";
   clear: both;
   display: table;
 }
-
 #preview {
   height: 8%;
   width: 20%;
   float: left;
   margin-top: 7%;
 }
-
 #summary {
   background-color: #fff;
   height: 10%;
@@ -838,8 +743,6 @@ header {
   margin-top:20px;
   padding left: 25px;
 }
-
-
 #time {
   height: 8%;
   width: 20%;
@@ -847,7 +750,6 @@ header {
   margin-top:25px;
   padding: 20;
 }
-
 #beast {
   height: 8%;
   width: 20%;
@@ -855,7 +757,6 @@ header {
   margin-top:25px;
   padding: 20;
 }
-
 #blood {
   height: 8%;
   width: 20%;
@@ -863,7 +764,6 @@ header {
   margin-top:25px;
   padding: 20;
 }
-
 #rebel {
   height: 8%;
   width: 20%;
@@ -871,7 +771,6 @@ header {
   margin-top:25px;
   padding: 20;
 }
-
 #fahrenheit {
   height: 8%;
   width: 20%;
@@ -879,7 +778,6 @@ header {
   margin-top:225px;
   padding: 20;
 }
-
 #malala {
   height: 8%;
   width: 20%;
@@ -887,7 +785,6 @@ header {
   margin-top:225px;
   padding: 20;
 }
-
 #invictus {
   height: 8%;
   width: 20%;
@@ -895,7 +792,6 @@ header {
   margin-top:225px;
   padding: 20;
 }
-
 #lab {
   height: 8%;
   width: 20%;
@@ -903,7 +799,6 @@ header {
   margin-top:225px;
   padding: 20;
 }
-
 #wired {
   height: 8%;
   width: 20%;
@@ -911,7 +806,6 @@ header {
   margin-top:225px;
   padding: 20;
 }
-
 #mother {
   height: 8%;
   width: 20%;
@@ -919,7 +813,6 @@ header {
   margin-top:225px;
   padding: 20;
 }
-
 #animals {
   height: 8%;
   width: 20%;
@@ -927,7 +820,6 @@ header {
   margin-top:225px;
   padding: 20;
 }
-
 #shadow {
   height: 8%;
   width: 20%;
@@ -935,7 +827,6 @@ header {
   margin-top:225px;
   padding: 20;
 }
-
 #wind {
   height: 8%;
   width: 20%;
@@ -943,7 +834,6 @@ header {
   margin-top:225px;
   padding: 20;
 }
-
 #dark {
   height: 8%;
   width: 20%;
@@ -951,7 +841,6 @@ header {
   margin-top:225px;
   padding: 20;
 }
-
 #child {
   height: 8%;
   width: 20%;
@@ -959,7 +848,6 @@ header {
   margin-top:225px;
   padding: 20;
 }
-
 #gifted {
   height: 8%;
   width: 20%;
@@ -967,8 +855,6 @@ header {
   margin-top:225px;
   padding: 20;
 }
-
-
 #boy {
   height: 8%;
   width: 20%;
@@ -976,7 +862,6 @@ header {
   margin-top:225px;
   padding: 20;
 }
-
 #magic {
   height: 8%;
   width: 20%;
@@ -984,7 +869,6 @@ header {
   margin-top:225px;
   padding: 20;
 }
-
 #young {
   height: 8%;
   width: 20%;
@@ -992,7 +876,6 @@ header {
   margin-top:225px;
   padding: 20;
 }
-
 #gifted {
   height: 8%;
   width: 20%;
@@ -1000,7 +883,6 @@ header {
   margin-top:225px;
   padding: 20;
 }
-
 #thechain {
   height: 8%;
   width: 20%;
@@ -1009,20 +891,18 @@ header {
   padding: 20;
 }
 .header-banner {
-  position: relative;
-    margin-top:0;
+    position:absolute;
+    top:0;
+    right:0;
     margin-right:0;
     border:0;
-    margin-left:25%;
+    left:25%;
     background-image: url('laramusa.github.io/Images/library.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    float:left;
-    width: 100%;
 }
-
 header h1 {
     background-color: rgba(18,72,120, 0.8);
     color: #fff;
@@ -1031,14 +911,12 @@ header h1 {
     top: 2rem; 
     left: 2rem;
 }
-
 .fixed-header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
 }
-
 nav {
     width: 100%;
     height: 60px;
@@ -1046,7 +924,6 @@ nav {
     postion: fixed;
     z-index: 10;
 }
-
 nav div {
     color: white;
     font-size: 2rem;
@@ -1059,7 +936,6 @@ nav div {
 .visible-title {
     visibility: visible;
 }
-
 nav ul { 
     list-style-type: none;
     margin: 0 2% auto 0;
@@ -1076,7 +952,6 @@ nav ul li a {
     text-decoration: none; 
     color: #fff;
 }
-
 /* demo content */
 body { 
     color: #292f36;
@@ -1089,7 +964,6 @@ body {
     width: 960px;
     max-width: 100%;
 }
-
 @media only screen and (max-width: 960px) {
     .content{ 
         padding: 2rem 0;
