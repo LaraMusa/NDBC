@@ -13,11 +13,7 @@ header {
     height: 360px;
     z-index: 10;
 }
-.main {
-  margin-top: 150px; 
-  margin-left: 30%;
-  margin-right: 5%;
-}
+
 .hpl:hover{
   background-color:rgb(200,214,227);
 }
