@@ -892,7 +892,7 @@ header {
   padding: 20;
 }
 .header-banner {
-    /*position:absolute;*/
+    position:absolute;
     top:0;
     right:0;
     margin-right:0;
