@@ -8,7 +8,7 @@ html, body{
   overflow-x: hidden;
   max-width:100%;
 }
-/* main */
+
 header {
     height: 360px;
     z-index: 10;
@@ -723,12 +723,7 @@ header {
 .sidenav a:hover {
   color: rgb(109,118,139);
 }
-.main {
-  /*margin-left: 35%;
-  margin-right: 10%;
-  padding: 0px 10px;
-  text-align:center;*/
-}
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
