@@ -896,7 +896,7 @@ header {
   padding: 20;
 }
 .header-banner {
-    position:absolute;
+    /*position:absolute;*/
     top:0;
     right:0;
     margin-right:0;
@@ -907,6 +907,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+    width; 75%
 }
 header h1 {
     background-color: rgba(18,72,120, 0.8);
