@@ -900,13 +900,13 @@ header {
     right:0;
     margin-right:0;
     border:0;
-    left:25%;
+    margin-left:25%;
     background-image: url('laramusa.github.io/Images/library.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    width: 100%;
+    width: 75%;
 }
 header h1 {
     background-color: rgba(18,72,120, 0.8);
