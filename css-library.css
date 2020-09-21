@@ -1009,7 +1009,7 @@ header {
   padding: 20;
 }
 .header-banner {
-    position:relative;
+  position: relative;
     top:0;
     right:0;
     margin-right:0;
@@ -1020,6 +1020,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+    width: 75%;
 }
 
 header h1 {
