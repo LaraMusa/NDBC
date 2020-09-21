@@ -3,6 +3,10 @@
 
 body { margin:0px; padding:0px;}
 
+html, body{
+  overflow-x: hidden;
+}
+
 /* main */
 header {
     height: 360px;
@@ -902,6 +906,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+    width: 75%;
 }
 header h1 {
     background-color: rgba(18,72,120, 0.8);
