@@ -12,10 +12,6 @@ html, body{
   max-width:100%;
 }
 
-#preview{
- margin-left:30%; 
-}
-
 header {
     height: 360px;
     z-index: 10;
