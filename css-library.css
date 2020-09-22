@@ -742,10 +742,10 @@ header {
   background-color: #fff;
   height: 10%;
   margin-left:20px;
-  width:50%;
+  width:40%;
   float: right;
   margin-top:20px;
-  padding left: 25px;
+  /*padding left: 25px;*/
 }
 #time {
   height: 8%;
