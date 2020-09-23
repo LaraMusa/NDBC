@@ -960,9 +960,8 @@ nav ul li a {
 }
 /* demo content */
 body { 
-    color: #292f36;
-    font-family: helvetica;
-    line-height: 1.6;
+    /*color: #292f36;
+    line-height: 1.6;*/
 }
 .content{ 
     /*margin: 0 auto;
