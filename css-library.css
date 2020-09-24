@@ -729,12 +729,12 @@ header {
   display: table;
 }
 #preview {
-  height: 8%;
-  width: 20%;
+  /*height: 8%;
+  width: 20%;*/
   float: left;
   margin-top: 6%;
-  /*height: 225px;
-  width:382px;"*/
+  height: 225px;
+  width:382px;"
 }
 #summary {
   height: 10%;
