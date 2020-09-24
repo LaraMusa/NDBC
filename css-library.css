@@ -9,7 +9,7 @@ html, body{
 }
 
 header {
-    /*height: 360px;*/ 
+    height: 360px;
     z-index: 10;
 }
 
