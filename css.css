@@ -16,9 +16,8 @@ position: fixed;
   z-index: -5000;
 }
 .champ {
-  margin-left: 25%; 
-  width: 75%; 
-  background-color: rgb(240,240,240);
+  margin-left: 25%;
+  width: 75%;
 }
 #intro{
  margin-left:40%;
