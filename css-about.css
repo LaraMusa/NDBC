@@ -11,6 +11,16 @@ header {
     height: 360px;
     z-index: 10;
 }
+.paralax{
+position: fixed;
+  bottom: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  min-height: 100%;
+  min-width: 100%;
+  z-index: -5000;
+}
 
 .sidenav {
   height: 100%;
