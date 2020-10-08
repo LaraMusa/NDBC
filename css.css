@@ -238,6 +238,7 @@ header {
 }
 .thevid{
   position:relative;
+    width: 75%;
     top:0;
     margin-right:0%;
     margin-left: 25%;
