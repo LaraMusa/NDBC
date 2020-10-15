@@ -30,9 +30,11 @@ position: fixed;
   text-align:center;
 }
 #button{
- margin-left:40%;
+ /*margin-left:40%;
   margin-right:14%;
-  text-align:center; 
+  text-align:center;*/
+margin: auto;
+width: 75%;
 }
 #link{
   background-color:rgb(58,58,58);
