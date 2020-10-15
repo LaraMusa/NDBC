@@ -133,6 +133,9 @@ background: rgb(240,240,240);
 }
 }
 @media screen and (max-width: 400px) {
+.sidenav {
+    visibility: hidden;
+}
 .thevid{
   position:relative;
     top:0;
@@ -230,7 +233,7 @@ margin-right:5%;
 <body class="main">
 	
 		
-	<button style="border:none;background:none;position:absolute;top:2%;left:2%;height:10%;width:9%;">
+	<button id="vis" onclick="myFunction()" style="border:none;background:none;position:absolute;top:2%;left:2%;height:10%;width:9%;">
 	<div class="bar1"></div>
 	<div class="bar1"></div>
 	<div class="bar1"></div>
@@ -294,7 +297,11 @@ margin-right:5%;
 </div>
 </div>
 </div>
-
+<script>
+function myFunction() {
+document.getElementsById("vis").style.visibility="visible";
+}
+</script>
 </body>
 </font>
 </html>
