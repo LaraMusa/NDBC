@@ -45,12 +45,23 @@ margin-top:170px;
   margin: 0;
 }
 @media screen and (max-width:800px) {
+.bar1, .bar2, .bar3 {
+  position: relative;
+  width: 100%;
+  height: 14%;
+  background-color: rgb(240,240,240);
+  z-index:12000;
+  margin: 6px 0;
+}
  .main {
 float: left;
 margin-left: 0%;
   }
 #sidenav {
-    width: 0%;
+display:none;
+width:100%;
+height:100%;
+z-index:11000;
 }
 .header-banner{
     width:100%; 
