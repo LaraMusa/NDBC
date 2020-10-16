@@ -132,6 +132,7 @@ background: rgb(240,240,240);
 }
 @media screen and (max-width: 400px) {
 #sidenav {
+display:none;
 width:100%;
 height:100%;
 z-index:11000;
@@ -271,10 +272,10 @@ margin-left:0;
 <script>
 function myFunction() {
   var x = document.getElementById("sidenav");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
+  if (x.style.display === "block") {
     x.style.display = "none";
+  } else {
+    x.style.display = "block";
   }
 }
 </script>
