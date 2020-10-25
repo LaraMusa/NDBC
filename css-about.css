@@ -54,24 +54,12 @@ position: fixed;
   color: rgb(109,118,139);
 }
 
-.main {
-  /*margin-left: 35%;
-  margin-right: 10%;
-  padding: 0px 10px;
-  text-align:center;*/
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-
+/*
 #boxes3 {
   content: "";
   clear: both;
   display: table;
-}
+}*/
 
 
 #who {
