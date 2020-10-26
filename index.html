@@ -27,9 +27,6 @@
 	
     <div class="clear"></div>
 <style>
-#phoneview{
-visibility:hidden;
-}
 .thevid{
 width:75%;
 }
@@ -150,12 +147,6 @@ background: rgb(240,240,240);
 }
 }
 @media screen and (max-width: 400px) {
-#phoneview{
-visibility:visible;
-}
-body{
-visibility:hidden;	
-}
 #sidenav {
 display:none;
 width:100%;
@@ -244,7 +235,6 @@ margin-left:0;
 </header>
 
 <body class="main">
-	<div id="phoneview"></div>
 	<button id="vis" onclick="myFunction()" style="border:none;background:none;position:absolute;top:1%;left:1%;height:8%;width:15%;cursor:pointer;">
 	<div class="bar1"></div>
 	<div class="bar1"></div>
@@ -303,9 +293,6 @@ function myFunction() {
     x.style.display = "block";
   }
 }
-$(document).ready(function(){
-   $('#phoneview').load("html-about.html");
-});
 </script>
 
 </body>
