@@ -29,19 +29,6 @@
 	
 <style>
 @media screen and (max-width: 400px) {
-#phoneview{
-width:100vh;
-height:100vh;
-background-color:#fff;
-z-index:20000;
-}
-.main{
-visibility:hidden;
-}
-.phoneviewbody{
-visibility:visible;
-z-index:20000;
-}
 .sidenav{
   width: 0%;
 }
@@ -177,9 +164,6 @@ text-align: center;
 </style>
 
 </header>
-<body class="phoneviewbody">
-<div id="phoneview"></div>
-</body>
 
 <body class="main">
 	<div style="min-height: 100%;min-width: 100%;background-size: cover;margin-top: 0px;">
@@ -197,7 +181,6 @@ text-align: center;
 </p></center>
 	</div></main>
 
-	
 
 	
 	<main id="boxes4" style="margin-left:28%;margin-right:4%;text-align:center;">
@@ -210,7 +193,7 @@ text-align: center;
 </p></center>
     </div></main>
 
-	
+
 
 
 <main id="boxes5" style="margin-left:28%;margin-right:4%;text-align:center;">
@@ -228,7 +211,7 @@ text-align: center;
         </ul>
     </div></main>
 
-	
+
 
 <!--<div id="contact" style="margin-right:0; margin-top: 100px; text-align:center; background-color: rgb(240,240,240);"><b><h2>Get in touch</h2></b>
     <p>If you have any inquires, contact us via email!</p>
@@ -243,9 +226,9 @@ text-align: center;
 
 </div>
 <script>
-$(document).ready(function(){
-   $('#phoneview').load("html-about.html");
-});
+if (screen.width <= 400) {
+     document.location = "html-about.html";
+}
 </script>
 
 </body>
