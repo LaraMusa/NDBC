@@ -152,8 +152,10 @@ function myFunction() {
   var x = document.getElementById("sidenav");
   if (x.style.display === "block") {
     x.style.display = "none";
+	document.body.style.overflow = "none";
   } else {
     x.style.display = "block";
+	  document.body.style.overflow = "none";
   }
 }
 </script>
