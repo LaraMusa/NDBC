@@ -104,13 +104,13 @@
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-/* Modal Content */
 .modal-content4 {
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
+  padding-bottom:15%;
 }
 /* The Close Button */
 .close4 {
