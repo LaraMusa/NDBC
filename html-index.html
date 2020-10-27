@@ -109,6 +109,41 @@
   height: 1.5px;
   width: 0%;
 }
+.btn1:hover{
+   background: transparent;
+}
+.btn1:hover:before {
+  height: 100%;
+}
+.btn1:hover:after {
+  width: 100%;
+}
+.btn1 span:hover{
+  color: rgb(45,83,132);
+}
+.btn1 span:before,
+.btn1 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+   background: rgb(41,54,86);
+  transition: all 0.4s ease;
+}
+.btn1 span:before {
+  height: 0%;
+  width: 1.5px;
+}
+.btn1 span:after {
+  height: 1.5px;
+  width: 0%;
+}
+.btn1 span:hover:before {
+  height: 100%;
+}
+.btn1 span:hover:after {
+  width: 100%;
+}
 	#gray{
 	width:100%;
 	height:auto;
