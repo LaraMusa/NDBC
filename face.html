@@ -1,103 +1,27 @@
 <html>
-<head>
-  <meta meta name="viewport" content="width=device-width, user-scalable=no"/>
-<style>
-  html, body{
-     overflow-x: hidden;
-     margin:0;
-    }
-	   #logo{
-		  height:32%;
-		  width:37%;
-		  margin-top:15%;
-		  margin-left:auto;
-		  margin-right:auto;
-	   }
-    #sidenav{
-	    display:none;
-            background-color: #0f2036;
-     	    height:100%;
-	    width:100%;
-	    z-index:0;
-	    text-align:center;
-    }
-    #sidenav a {
-  	padding: 6px 8px 20px 16px;
-  	text-decoration: none;
-  	font-size: 20px;
-  	color: #fff;
-  	display: block;
-	}
-    #btn{
-     border:none;
-     background:none;
-     position:absolute;
-     top:1%;
-     left:1%;
-     height:8%;
-     width:15%;
-     cursor:pointer;
-     z-index:1;
-    }
-    #bar1, #bar2, #bar3 {
-     position:relative;
-     width:100%;
-     height:14%;
-     background-color:rgb(240,240,240);
-     z-index:12000;
-     margin: 6px 0;
-     }
-  #t{
-   margin-left:3%;
-   margin-right:3%;
-  }
-  #headbann{
-     position:relative;
-     width:100%;
-     height:auto;
-     }
-</style>
-</head>
-<body>
-<div id="sidenav">
-<img src="lcbc-champs.github.io/Images/logo3.png" id="logo"/>
-<a href="index.html" style="margin-top:10%;">Home</a>
-<a href="about.html">About Us</a>
-<a href="library.html">Virtual Library</a>
-<a href="face.html">Book Face Contest</a>
-</div>
-
-<button id="btn" onclick="myFunction()">
-<div id="bar1"></div>
-<div id="bar1"></div>
-<div id="bar1"></div>
-</button>
-
-  <img src="lcbc-champs.github.io/Images/bookface2.jpg" id="headbann"/>
-  
-  <p style="margin-top:4%;">Don't tell us what you're reading-show us!</p>
-  <p>Take a picture with a book cover as your face (be creative!), and send us your photo at lcbc.champs@gmail.com by November 7th. Remember to include your name and age in your submission.</p>
-  <p>We will choose ten winners from all entrants who have submitted an entry during the submission period and display their pictures on the LCBC homepage. Winners will be chosen based upon originality and creativity, and will be notified by email by November 8th.</p>
-  
-  <h5><b>*LCBC use of entries:</b></h5>
-<h5>By entering your work, you acknowledge that the literary champions book club shall have the right to use, modify, reproduce, publish, and display Entry Materials on their official website.</h5>
-  <h5><b>*Originality of work:</b></h5>
-  <h5>By submitting an entry, you hereby warrant and represent that (a) you own all rights to all Entry Materials submitted by you; and (b) all such Entry Materials are original works of authorship on your part and have not been copied, in whole or in part, from any other work and do not violate, misappropriate or infringe any copyright, trademark or other proprietary right of any other person or entity. You hereby verify that you will provide full written permission of any recognizable person, and their guardian if they are a minor, who are depicted in your Entry Materials.</h5>
-
-<div style="text-align:center;background-color:rgb(240,240,240);">
- <h2 style="padding-top:4%;">Get in touch</h2>
- <p>If you have any inquires, contact us via email!</p>
- <p style="padding-bottom:4%;">lcbc.champs@gmail.com</p>
- </div>
-</body>
 <script>
-function myFunction() {
-  var x = document.getElementById("sidenav");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
+if (screen.width <= 400) {
+     document.location = "html-face.html";
 }
 </script>
+<font face = "Georgia, serif">
+	<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+	</head>
+<header>
+    <script type="text/javascript" src="Javascript.js"></script>
+    
+    <div class="sidenav">
+        <center><div class="LogoPicture" style="height:100px;width:110px;margin-top:49px;margin-right:8%;margin-left:0;">
+            <img src="lcbc-champs.github.io/Images/logo3.png" style="height:200px;width:140px;"/>
+        </div></center>
+        <a href="index.html" style="margin-top:160px;margin-bottom:3%;">Home</a>
+        <a href="about.html" style="margin-bottom:3%;">About Us</a>
+        <a href="library.html">Virtual Library</a>
+	<a href="face.html">Book Face Contest</a>
+    </div>
+</header>
+</font>
 </html>
