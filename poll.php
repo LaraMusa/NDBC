@@ -28,7 +28,7 @@ fclose($fp);
 <h5>The results will be out on November 27th.</h5>
 <table>
 <tr>
-<td>The Kingdom of Back - Marie Lu</td>
+<!--<td>The Kingdom of Back - Marie Lu</td>-->
 <td><img src="lcbc-champs.github.io/Book Covers/15.jp"
 width='<?php echo(100*round($yes/($no+$yes),2)); ?>'
 height='20'>
@@ -36,7 +36,7 @@ height='20'>
 </td>
 </tr>
 <tr>
-<td>Educated - Tara Westover</td>
+<!--<td>Educated - Tara Westover</td>-->
 <td><img src="lcbc-champs.github.io/Book Covers/edu.jp"
 width='<?php echo(100*round($no/($no+$yes),2)); ?>'
 height='20'>
