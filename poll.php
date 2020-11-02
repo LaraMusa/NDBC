@@ -26,21 +26,21 @@ fclose($fp);
 
 <h3>Thanks for participating!</h3>
 <h5>The results will be out on November 27th.</h5>
-<table>
+<!--<table>
 <tr>
-<!--<td>The Kingdom of Back - Marie Lu</td>-->
-<td><!--<img src="lcbc-champs.github.io/Book Covers/15.jpg"
+<!--<td>The Kingdom of Back - Marie Lu</td>
+<td><img src="lcbc-champs.github.io/Book Covers/15.jpg"
 width='<?php echo(100*round($yes/($no+$yes),2)); ?>'
-height='20'>-->
+height='20'>
 <?php echo(100*round($yes/($no+$yes),2)); ?>
 </td>
 </tr>
 <tr>
-<!--<td>Educated - Tara Westover</td>-->
-<td><!--<img src="lcbc-champs.github.io/Book Covers/edu.jpg"
+<!--<td>Educated - Tara Westover</td>
+<td><img src="lcbc-champs.github.io/Book Covers/edu.jpg"
 width='<?php echo(100*round($no/($no+$yes),2)); ?>'
-height='20'>-->
+height='20'>
 <?php echo(100*round($no/($no+$yes),2)); ?>
 </td>
 </tr>
-</table>
+</table>-->
