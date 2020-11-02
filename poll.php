@@ -24,7 +24,8 @@ fputs($fp,$insertvote);
 fclose($fp);
 ?>
 
-<h2>Result:</h2>
+<h3>Thanks for participating!</h3>
+<?php
 <table>
 <tr>
 <td>The Kingdom of Back - Marie Lu</td>
@@ -43,3 +44,4 @@ height='20'>
 </td>
 </tr>
 </table>
+?>
