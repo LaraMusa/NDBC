@@ -200,6 +200,29 @@ margin-left: 30%;
 <center><p style="width:100%;margin-left:10px;">Once upon a time, in a land blighted by terror, there was a very clever boy. The people thought the boy could save them, so they opened their gates and sent him out into the world. To where the monsters lived.</p><a href="discussion.html" style= "color:rgb(41,54,86);">Go To The Discussion Session!</a></center>
 </div></main>-->
 
+
+<script>
+function getVote(int) {
+  var xmlhttp=new XMLHttpRequest();
+  xmlhttp.onreadystatechange=function() {
+    if (this.readyState==4 && this.status==200) {
+      document.getElementById("poll").innerHTML=this.responseText;
+    }
+  }
+  xmlhttp.open("GET","poll_vote.php?vote="+int,true);
+  xmlhttp.send();
+}
+</script>
+
+<div id="poll">
+<h3>Do you like PHP and AJAX so far?</h3>
+<form>
+Yes: <input type="radio" name="vote" value="0" onclick="getVote(this.value)"><br>
+No: <input type="radio" name="vote" value="1" onclick="getVote(this.value)">
+</form>
+</div>
+
+
 <div class="container2" style="margin-top:2%;">
 <div style="background-color: rgb(240,240,240);height:3px;width:100%;margin-top: 5%;"></div>
 <h1 style="text-align:center;margin-left:25%;">Book Favorites</h1>
