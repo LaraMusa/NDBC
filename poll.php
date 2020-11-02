@@ -27,7 +27,7 @@ fclose($fp);
 <h2>Result:</h2>
 <table>
 <tr>
-<td>Yes:</td>
+<td>The Kingdom of Back - Marie Lu</td>
 <td><img src="poll.gif"
 width='<?php echo(100*round($yes/($no+$yes),2)); ?>'
 height='20'>
@@ -35,7 +35,7 @@ height='20'>
 </td>
 </tr>
 <tr>
-<td>No:</td>
+<td>Educated - Tara Westover</td>
 <td><img src="poll.gif"
 width='<?php echo(100*round($no/($no+$yes),2)); ?>'
 height='20'>
