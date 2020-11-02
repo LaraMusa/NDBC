@@ -31,7 +31,7 @@ fclose($fp);
 <td><img src="lcbc-champs.github.io/Book Covers/15.jpg"
 width='<?php echo(100*round($yes/($no+$yes),2)); ?>'
 height='20'>
-<?php echo(100*round($yes/($no+$yes),2)); ?>%
+<?php echo(100*round($yes/($no+$yes),2)); ?>93%
 </td>
 </tr>
 <tr>
@@ -39,7 +39,7 @@ height='20'>
 <td><img src="lcbc-champs.github.io/Book Covers/edu.jpg"
 width='<?php echo(100*round($no/($no+$yes),2)); ?>'
 height='20'>
-<?php echo(100*round($no/($no+$yes),2)); ?>%
+<?php echo(100*round($no/($no+$yes),2)); ?>7%
 </td>
 </tr>
 </table>
