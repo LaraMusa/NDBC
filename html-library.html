@@ -123,6 +123,27 @@
   
   <center><a href="html-discussion.html" style="color:rgb(41,54,86);">Go To The Discussion Session!</a></center>
   
+<script>
+function getVote(int) {
+  var xmlhttp=new XMLHttpRequest();
+  xmlhttp.onreadystatechange=function() {
+    if (this.readyState==4 && this.status==200) {
+      document.getElementById("poll").innerHTML=this.responseText;
+    }
+  }
+  xmlhttp.open("GET","poll_vote.php?vote="+int,true);
+  xmlhttp.send();
+}
+</script>
+
+<div style="margin-left:28%;" id="poll">
+<h3 style="padding-top:3%;">Poll-What should we read next?</h3>
+<form>
+<img src="lcbc-champs.github.io/Book Covers/15.jpg" style="height:20%;width:24%;"/> <input type="radio" name="vote" value="0" onclick="getVote(this.value)">
+<img src="lcbc-champs.github.io/Book Covers/edu.jpg" style="height:20%;width:24%;magrin-left:5%;"/> <input type="radio" name="vote" value="1" onclick="getVote(this.value)">
+</form>
+</div>
+	
   <h1 style="margin-top:13%;" id="t1">Book Favorites</h1>
 	
 <div id="container">
