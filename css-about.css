@@ -36,7 +36,7 @@ position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #0f2036;
+  background-color: rgb(236,236,236);
   overflow-x: hidden;
   padding-top: 20px;
   text-align:center;
@@ -46,12 +46,12 @@ position: fixed;
   padding: 6px 8px 20px 16px;
   text-decoration: none;
   font-size: 20px;
-  color: #fff;
+  color: rgb(38,38,38);
   display: block;
 }
 
 .sidenav a:hover {
-  color: rgb(109,118,139);
+  color: rgb(182,182,182);
 }
 
 
@@ -135,7 +135,7 @@ position: fixed;
     margin-right:0;
     border:0;
     margin-left:25%;
-    background-image: url('lcbc-champs.github.io/Images/about.jpg');
+    background-image: url('lcbc-champs.github.io/Images/aboutbanner.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
