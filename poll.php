@@ -25,4 +25,4 @@ fclose($fp);
 ?>
 
 <h3>Thanks for participating!</h3>
-<h5>The results will be out on February 23rd.</h5>
+<h5>The results will be out on April 23rd.</h5>
